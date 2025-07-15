@@ -35,7 +35,7 @@ export async function exportAction({
     // If saveFile is false, then we're not exporting data, we're exporting what we need to generate a schema
     skipWebhooks: true,
     skipRoles: true,
-    downloadAssets: false,
+    downloadAssets: true,
     maxAllowedLimit: 250,
     contentFile: exportFile,
     // errorLogFile: `${exportFile}.error.log`,

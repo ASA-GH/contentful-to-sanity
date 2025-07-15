@@ -10,3 +10,4 @@ oclif.manifest.json
 *.tsbuildinfo
 .eslintcache
 .vscode
+.idea
